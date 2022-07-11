@@ -159,17 +159,6 @@
            ;; :lldbmipath "path/to/lldb-mi"
            ))))
 
-(use-package lsp-mode
-	:ensure
-	:commands lsp)
-(use-package lsp-ui
-	:ensure
-	:commands lsp-ui-mode
-	:custom
-	(lsp-ui-peek-always-show t)
-	(lsp-ui-sideline-show-hover t)
-	(lsp-ui-doc-enable nil))
-
 (use-package typescript-mode
   :mode "\\.ts\\'"
   :config

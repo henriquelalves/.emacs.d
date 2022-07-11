@@ -163,20 +163,6 @@
            ))))
 #+END_SRC
 
-* LSP
-#+BEGIN_SRC emacs-lisp
-	(use-package lsp-mode
-		:ensure
-		:commands lsp)
-	(use-package lsp-ui
-		:ensure
-		:commands lsp-ui-mode
-		:custom
-		(lsp-ui-peek-always-show t)
-		(lsp-ui-sideline-show-hover t)
-		(lsp-ui-doc-enable nil))
-#+END_SRC
-
 * Customised mode installs
 #+BEGIN_SRC emacs-lisp
   (use-package typescript-mode
