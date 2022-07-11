@@ -1,11 +1,9 @@
 (org-babel-load-file "~/.emacs.d/config/reduce-garbage.org")
 (org-babel-load-file "~/.emacs.d/config/better-defaults.org")
-;;(org-babel-load-file "~/.emacs.d/config/evil.org")
 (org-babel-load-file "~/.emacs.d/config/ivy.org")
 (org-babel-load-file "~/.emacs.d/config/visuals.org")
-;;(org-babel-load-file "~/.emacs.d/config/functions.org")
+(org-babel-load-file "~/.emacs.d/config/functions.org")
 (org-babel-load-file "~/.emacs.d/config/programming-modes.org")
-;;(org-babel-load-file "~/.emacs.d/config/yas.org")
 (org-babel-load-file "~/.emacs.d/config/helpful-packages.org")
 (org-babel-load-file "~/.emacs.d/config/magit.org")
 (org-babel-load-file "~/.emacs.d/config/projectile.org")
@@ -23,6 +21,3 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-(defun reload-init ()
-	(interactive)
-	(load-file "~/.emacs.d/init.el"))
