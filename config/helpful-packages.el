@@ -2,7 +2,7 @@
   :init (which-key-mode)
   :diminish which-key-mode
   :config
-  (setq which-key-idle-delay 0))
+  (setq which-key-idle-delay 1))
 
 (use-package helpful
   :custom
