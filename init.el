@@ -14,7 +14,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-	 '(scala-mode php-mode lsp-pyright lsp-dart lsp-origami helm-lsp lsp-haskell lsp-python-ms lsp-java projectile magit company helpful which-key yasnippet web-mode typescript-mode slime cider clojure-mode haskell-mode rust-mode csharp-mode org-bullets rainbow-delimiters doom-themes doom-modeline all-the-icons ivy-rich counsel ivy diminish exec-path-from-shell use-package)))
+	 '(org-tracktable scala-mode php-mode lsp-pyright lsp-dart lsp-origami helm-lsp lsp-haskell lsp-python-ms lsp-java projectile magit company helpful which-key yasnippet web-mode typescript-mode slime cider clojure-mode haskell-mode rust-mode csharp-mode org-bullets rainbow-delimiters doom-themes doom-modeline all-the-icons ivy-rich counsel ivy diminish exec-path-from-shell use-package)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

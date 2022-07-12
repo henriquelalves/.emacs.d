@@ -7,3 +7,4 @@ projectile-bookmarks.eld
 transient/
 config/*.el
 .dap-breakpoints
+recentf
