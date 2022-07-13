@@ -24,10 +24,3 @@
 #+BEGIN_SRC emacs-lisp
 	(use-package org-tracktable)
 #+END_SRC
-
-* Company-mode
-#+BEGIN_SRC emacs-lisp
- ;; (use-package company
- ;; :config
- ;; (add-hook 'after-init-hook 'global-company-mode))
-#+END_SRC

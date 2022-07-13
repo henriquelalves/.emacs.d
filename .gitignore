@@ -8,3 +8,5 @@ transient/
 config/*.el
 .dap-breakpoints
 recentf
+.org-id-locations
+bookmarks

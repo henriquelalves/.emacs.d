@@ -1,22 +1,23 @@
 * LSP Clean
 - Disable 'cl is deprecated' boot message
 	- TODO: Discover which lsp lib uses cl
+	- TODO: Clean installation not working
 #+BEGIN_SRC emacs-lisp
 	(setq byte-compile-warnings '(cl-functions))
 #+END_SRC
-	- Removed yasnipped from pkg-list
 	- Based on 'lsp-start-plain' config
 #+BEGIN_SRC emacs-lisp
-		(let* ((pkg-list '(lsp-mode lsp-ui lsp-java lsp-python-ms lsp-haskell helm-lsp lsp-treemacs dap-mode lsp-origami lsp-dart company flycheck lsp-pyright
-															;; modes
-															rust-mode php-mode scala-mode dart-mode clojure-mode typescript-mode csharp-mode gdscript-mode)))
+	(let* ((pkg-list '(lsp-mode lsp-ui yasnippet lsp-java lsp-python-ms lsp-haskell helm-lsp lsp-treemacs dap-mode lsp-origami lsp-dart company flycheck lsp-pyright
+														;; modes
+														rust-mode php-mode scala-mode dart-mode clojure-mode typescript-mode csharp-mode gdscript-mode)))
 
-		(mapc (lambda (pkg)
-						(unless (package-installed-p pkg)
-							(package-install pkg))
-						(require pkg))
-					pkg-list)
+	(mapc (lambda (pkg)
+					(unless (package-installed-p pkg)
+						(package-install pkg))
+					(require pkg))
+				pkg-list)
 
-		;; Add hooks individually
-		(add-hook 'rust-mode-hook 'lsp))
+	;; Add hooks
+	(yas-global-mode)
+	(add-hook 'rust-mode-hook 'lsp))
 #+END_SRC
