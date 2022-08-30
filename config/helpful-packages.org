@@ -24,3 +24,23 @@
 #+BEGIN_SRC emacs-lisp
 	(use-package org-tracktable)
 #+END_SRC
+
+* Workspaces
+#+BEGIN_SRC emacs-lisp
+	(use-package perspective
+		:demand t
+		:bind ("C-x C-b" . persp-list-buffers)
+		:custom
+		(persp-initial-frame-name "Main")
+		(persp-mode-prefix-key (kbd "C-x M-p"))  ; pick your own prefix key here
+		:init
+		(persp-mode))
+#+END_SRC
+
+* Direnv
+- Must install 'direnv' to take effect; it loads projects .envrc files (for python venvs)
+#+BEGIN_SRC emacs-lisp
+(use-package direnv
+ :config
+ (direnv-mode))
+#+END_SRC

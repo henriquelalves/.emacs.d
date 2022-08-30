@@ -20,4 +20,5 @@
 	;; Add hooks
 	(yas-global-mode)
 	(add-hook 'rust-mode-hook 'lsp))
+
 #+END_SRC

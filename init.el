@@ -14,7 +14,14 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-	 '(org-roam projectile magit org-tracktable helpful which-key org-bullets rainbow-delimiters doom-themes doom-modeline all-the-icons ivy-rich counsel ivy diminish gdscript-mode csharp-mode typescript-mode clojure-mode scala-mode php-mode rust-mode lsp-pyright flycheck company lsp-dart lsp-origami helm-lsp lsp-haskell lsp-python-ms lsp-java yasnippet lsp-ui lsp-mode exec-path-from-shell use-package)))
+	 '(org-roam projectile magit org-tracktable helpful which-key org-bullets rainbow-delimiters doom-themes doom-modeline all-the-icons ivy-rich counsel ivy diminish gdscript-mode csharp-mode typescript-mode clojure-mode scala-mode php-mode rust-mode lsp-pyright flycheck company lsp-dart lsp-origami helm-lsp lsp-haskell lsp-python-ms lsp-java yasnippet lsp-ui lsp-mode exec-path-from-shell use-package))
+ '(safe-local-variable-values
+	 '((eval org-roam-db-sync)
+		 (eval setq-local org-roam-db-location
+					 (expand-file-name "org-roam.db" org-roam-directory))
+		 (eval setq-local org-roam-directory
+					 (expand-file-name
+						(locate-dominating-file default-directory ".dir-locals.el"))))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
