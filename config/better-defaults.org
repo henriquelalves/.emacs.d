@@ -6,49 +6,50 @@ this basic setup. This is stuff I feel I will always want
 
 * Better UI Defaults
 #+BEGIN_SRC emacs-lisp
-	;;Disable grotesque graphical toolbars (i don't use them)
-	(scroll-bar-mode -1)
-	(tool-bar-mode -1)
-	(tooltip-mode -1)
-	(menu-bar-mode -1)
+		;;Disable grotesque graphical toolbars (i don't use them)
+		(scroll-bar-mode -1)
+		(tool-bar-mode -1)
+		(tooltip-mode -1)
+		(menu-bar-mode -1)
 
-	;;inhibit audio bell (no beepy)
-	(setq visible-bell t)
+		;;inhibit audio bell (no beepy)
+		(setq visible-bell t)
 
-	;;Disable blinking cursor (it gives me anxiety)
-	(blink-cursor-mode 0)
+		;;Disable blinking cursor (it gives me anxiety)
+		(blink-cursor-mode 0)
 
-	;;Show Matching Parenthesis (always good, especially in lisps)
-	(show-paren-mode t)
+		;;Show Matching Parenthesis (always good, especially in lisps)
+		(show-paren-mode t)
 
-	;; minimize splitting windows automatically
-	(setq split-height-threshold 5)
-	(setq split-width-threshold 5)
+		;; minimize splitting windows automatically
+		(setq split-height-threshold 5)
+		(setq split-width-threshold 5)
 
-	;; Display time
-	;;(setq display-time-day-and-date t)
-	;;(display-time)
+		;; Display time
+		;;(setq display-time-day-and-date t)
+		;;(display-time)
 
-	;;Display Battery (So your laptop doesn't suddenly die)
-	;;(display-battery-mode 1)
+		;;Display Battery (So your laptop doesn't suddenly die)
+		;;(display-battery-mode 1)
 
-	;; column and line number in mode line (It's nice)
-	(column-number-mode)
+		;; column and line number in mode line (It's nice)
+		(column-number-mode)
 
-	 ;;display linums down the side of buffer (Line number redundancy)
-	(global-display-line-numbers-mode t)
+		 ;;display linums down the side of buffer (Line number redundancy)
+		(global-display-line-numbers-mode t)
 
-	;;Highlight current line
-	(global-hl-line-mode +1)
+		;;Highlight current line
+		(global-hl-line-mode +1)
 
-	;;Disable line numbers in terminal and places it's not needed
-	(dolist (mode '(term-mode-hook
-									shell-mode-hook
-									eshell-mode-hook treemacs-mode-hook))
-		(add-hook mode (lambda () (display-line-numbers-mode 0))))
+		;;Disable line numbers in terminal and places it's not needed
+		(dolist (mode '(term-mode-hook
+										shell-mode-hook
+										eshell-mode-hook
+										treemacs-mode-hook))
+			(add-hook mode (lambda () (display-line-numbers-mode 0))))
 
-	;;Better font
-	(set-face-attribute 'default nil :font "Fira Code" :height 120)
+		;;Better font
+		(set-face-attribute 'default nil :font "Fira Code" :height 120)
 
 #+END_SRC
 
@@ -127,10 +128,9 @@ this basic setup. This is stuff I feel I will always want
 * Org mode
 ** Truncate Lines
 #+BEGIN_SRC emacs-lisp
-		(defun custom-org-mode-hook ()
+	(defun custom-org-mode-hook ()
 		"Custom hook."
 		(setq word-wrap t)
 		(setq truncate-lines nil))
-
 	(add-hook 'org-mode-hook #'custom-org-mode-hook)
 #+END_SRC
