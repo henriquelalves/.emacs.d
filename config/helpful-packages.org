@@ -20,9 +20,10 @@
     ([remap describe-key] . helpful-key))
 #+END_SRC
 
-* Org Tracktable
+* Org Stuff
 #+BEGIN_SRC emacs-lisp
 	(use-package org-tracktable)
+	(use-package org-pomodoro)
 #+END_SRC
 
 * Direnv

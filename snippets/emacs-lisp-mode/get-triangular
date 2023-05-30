@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name:get-triangular
-# key:get-triangular
-# --
-(defun get-triangular (x)
-  (/ (* x (+ x 1)) 2))

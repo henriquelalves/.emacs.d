@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name:malloc
-# key:malloc
-# --
-(char*)malloc(n * sizeof(char));

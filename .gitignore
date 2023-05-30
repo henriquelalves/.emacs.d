@@ -1,4 +1,10 @@
 *~
+url/
+eln-cache/
+ede-projects.el
+.cache/
+auto-save/
+backups/
 auto-save-list/
 elpa/
 eshell/

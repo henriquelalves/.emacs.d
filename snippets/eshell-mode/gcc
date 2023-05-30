@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: gcc
-# key: gcc
-# --
-gcc -Werror -Wall -Wpedantic -Wextra

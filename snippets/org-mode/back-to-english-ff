@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: фф
-# key: фф
-# --
-
-(shell-command "setxkbmap gb")

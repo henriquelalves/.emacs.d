@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: tune
-# key: tune
-# --
-(shell-command "firefox '$0'")

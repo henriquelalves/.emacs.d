@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: react
-# key: react
-# --
-npx create-react-app $1 --use-npm

@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# name: args
-# key: args
-# --
-//Process Commandline arguments
-foreach(string arg in args){
-        Console.WriteLine("Arg: {0}", arg);
-}

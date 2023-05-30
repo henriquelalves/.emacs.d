@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name:area_triangle
-# key:area_triangle
-# --
-const area_triangle = (base, height) => 0.5 * base * height

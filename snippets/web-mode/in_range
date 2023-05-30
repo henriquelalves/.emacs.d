@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name:in_range
-# key:in_range
-# --
-const in_range = (min, max, x) => x >= min && x <= max

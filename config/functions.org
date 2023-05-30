@@ -1,7 +1,7 @@
 My simple lisp functions.
 * Debugging Emacs
 #+BEGIN_SRC emacs-lisp
-(defun reload-init ()
-	(interactive)
-	(load-file "~/.emacs.d/init.el"))
+	(defun reload-init ()
+		(interactive)
+		(load-file "~/.emacs.d/init.el"))
 #+END_SRC

@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name:get_triangular
-# key:get_triangular
-# --
-const get_triangular = x => x * (x+1) / 2

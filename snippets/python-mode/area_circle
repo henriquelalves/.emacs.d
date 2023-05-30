@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name:area_circle
-# key:area_circle
-# --
-area_circle = lambda radius : math.pi * pow(radius, 2)
