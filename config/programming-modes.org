@@ -18,7 +18,6 @@
 				pkg-list)
 
 	;; Add hooks
-	(yas-global-mode)
 	(add-hook 'rust-mode-hook 'lsp)
 	(add-hook 'javascript-mode-hook 'lsp))
 

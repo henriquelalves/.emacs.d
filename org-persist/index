@@ -1,0 +1,129 @@
+((:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "77/cc9fae-53f2-4925-80b5-45004af73437" :associated
+	(:hash "602151acb081da19489ef44d55fcf5e5" :file "/Users/macpc/Projects/org-files/pessoal/ideias.org" :inode 6304482)
+	:expiry 30 :last-access 1689934267.625208 :last-access-hr "2023-07-21T13:11:07+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "da/8ff65d-f7ef-432d-abd6-c7645ed477fe" :associated
+	(:hash "56081103a69df04bc7e06b552d79f0e1" :file "/Users/macpc/Projects/org-files/pessoal/glam.org" :inode 8015877)
+	:expiry 30 :last-access 1689354977.908276 :last-access-hr "2023-07-14T20:16:17+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "c1/7590f0-0254-4bf3-b712-195010830f65" :associated
+	(:hash "4cffbffc354faa2790d1e4c9ad78648a" :file "/Users/macpc/Projects/org-files/pessoal/sites.org" :inode 6304530)
+	:expiry 30 :last-access 1689934267.628015 :last-access-hr "2023-07-21T13:11:07+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "58/8b792f-4dcd-40f0-bae7-d4349bfe4f19" :associated
+	(:hash "f94d48dad4f69e85063967a319a04006" :file "/Users/macpc/Projects/org-files/trabalho/gdquest/gdtour.org" :inode 8485560)
+	:expiry 30 :last-access 1689880410.532302 :last-access-hr "2023-07-20T22:13:30+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "8c/af99e6-b7d4-48fc-b6ed-ac725d9df9af" :associated
+	(:hash "2698e1f954f6cabbd8e4b931513b974a" :file "/Users/macpc/Projects/org-files/pessoal/finland-company.org" :inode 7605702)
+	:expiry 30 :last-access 1689086770.508817 :last-access-hr "2023-07-11T17:46:10+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "d4/837c3b-94a9-4ab6-9f0b-210600255923" :associated
+	(:hash "bc4d153df53c923277ff5281134314ca" :file "/Users/macpc/Projects/org-files/pessoal/projetos.org" :inode 8094028)
+	:expiry 30 :last-access 1689836126.752699 :last-access-hr "2023-07-20T09:55:26+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "96/af3d33-6d2a-45e8-9bf0-1cf86e89e354" :associated
+	(:hash "636af2e4f6bf60628ca23d3aec8cf45a" :file "/Users/macpc/Projects/org-files/pessoal/cool-engines-project.org" :inode 6304472)
+	:expiry 30 :last-access 1689702752.503591 :last-access-hr "2023-07-18T20:52:32+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "8a/182c51-5393-4ded-a689-96ab2abe214d" :associated
+	(:hash "133c48e940d4e972a33b3d6b79d1a5c2" :file "/Users/macpc/Projects/org-files/trabalho/gdquest/dailies/2023-06-26.org" :inode 6730969)
+	:expiry 30 :last-access 1687811302.130048 :last-access-hr "2023-06-26T23:28:22+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "e0/f7120e-961c-4a31-8d14-0924cc8b6682" :associated
+	(:hash "46b22f9435b58c843c79d9203f8e34bf" :file "/Users/macpc/.emacs.d/config/better-defaults.org" :inode 6479903)
+	:expiry 30 :last-access 1687721815.111266 :last-access-hr "2023-06-25T22:36:55+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "51/e3e1ba-731d-455d-b804-f185f7dddac1" :associated
+	(:hash "3f7d1b5df912fac2acce6dcacac930c0" :file "/Users/macpc/Projects/org-files/agenda/financeiro.org" :inode 6304369)
+	:expiry 30 :last-access 1687757733.367658 :last-access-hr "2023-06-26T08:35:33+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "c8/65191c-9a66-4ea9-a072-e7f27ddccf80" :associated
+	(:hash "b7986d76118833da2d38209144f99757" :file "/Users/macpc/Projects/org-files/agenda/pessoal.org" :inode 6304372)
+	:expiry 30 :last-access 1687715984.266086 :last-access-hr "2023-06-25T20:59:44+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "1a/ee0219-50d2-484e-8ad5-59d52e43a885" :associated
+	(:hash "6a1bf3870babfd6ce801a17fcf42c28f" :file "/Users/macpc/Projects/org-files/notes.org" :inode 6304394)
+	:expiry 30 :last-access 1687715984.269672 :last-access-hr "2023-06-25T20:59:44+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "f8/78dde1-b178-4c81-95a6-104d8cf80fb8" :associated
+	(:hash "133c48e940d4e972a33b3d6b79d1a5c2" :file "/Users/macpc/Projects/org-files/trabalho/gdquest/dailies/2023-06-23.org" :inode 6618868)
+	:expiry 30 :last-access 1687811302.13293 :last-access-hr "2023-06-26T23:28:22+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "04/f70aa2-29c5-4f6b-8d7e-6ee721f9bb39" :associated
+	(:hash "a8289b084af0f38c048f34c743330054" :file "/Users/macpc/Projects/org-files/trabalho/gdquest/dailies/2023-06-22.org" :inode 6561771)
+	:expiry 30 :last-access 1687523492.689519 :last-access-hr "2023-06-23T15:31:32+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "1e/236e2a-930c-4e61-b939-d052a35d1ea4" :associated
+	(:hash "8a8bad5cb9d1cd5316a59db0b8a307c8" :file "/Users/macpc/.emacs.d/config/projectile.org" :inode 6479909)
+	:expiry 30 :last-access 1687448047.247849 :last-access-hr "2023-06-22T18:34:07+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "d6/20a6e8-f89b-4ec5-bb0a-287bc1f64fae" :associated
+	(:hash "290dbb041db8720fcbf2302dbd16739e" :file "/Users/macpc/.emacs.d/config/magit.org" :inode 6479907)
+	:expiry 30 :last-access 1687448039.824716 :last-access-hr "2023-06-22T18:33:59+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "a1/6f4240-a37a-4d88-8962-207743a52852" :associated
+	(:hash "07c2d57535eea9b24d6bb3ca10001721" :file "/Users/macpc/.emacs.d/config/helpful-packages.org" :inode 6479905)
+	:expiry 30 :last-access 1687448033.049031 :last-access-hr "2023-06-22T18:33:53+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "10/f56c95-e721-4944-9d8b-ee31ce82e041" :associated
+	(:hash "e489667f7fb1f241a3b72224a863637b" :file "/Users/macpc/.emacs.d/config/functions.org" :inode 6479904)
+	:expiry 30 :last-access 1687715984.270902 :last-access-hr "2023-06-25T20:59:44+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "54/3fa615-7806-48e1-86c4-2235515d7806" :associated
+	(:hash "d8aad42cec89859b0803058c5e4df48c" :file "/Users/macpc/.emacs.d/config/visuals.org" :inode 6479912)
+	:expiry 30 :last-access 1688410498.353724 :last-access-hr "2023-07-03T21:54:58+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "d9/0f73ca-029d-4544-a4ac-2bb94b389ed9" :associated
+	(:hash "22f42dd6ca0363204bc35b5088273d2c" :file "/Users/macpc/.emacs.d/config/ivy.org" :inode 6479906)
+	:expiry 30 :last-access 1687715984.272097 :last-access-hr "2023-06-25T20:59:44+0300")
+ (:container
+	((elisp org-element--headline-cache)
+	 (elisp org-element--cache))
+	:persist-file "60/d0b406-33a4-4d89-9e99-cc46ab8f8a6a" :associated
+	(:hash "dc0a47e61554801b0c7cac09b700b1fe" :file "/Users/macpc/.emacs.d/config/programming-modes.org" :inode 6479908)
+	:expiry 30 :last-access 1687448015.924379 :last-access-hr "2023-06-22T18:33:35+0300")
+ (:container
+	((index "3.1"))
+	:persist-file "cb/b5c861-2a9b-4d64-938a-f807ba1b7420" :associated nil :expiry never :last-access 1689934267.630932 :last-access-hr "2023-07-21T13:11:07+0300"))
